@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header><p><a href="./">一問一図 制作ツール</a></p></header>
+
+<h1>プライバシーポリシー</h1>
+<p class="meta">制定日: 2026年11月18日 ／ 最終更新日: 2026年11月18日</p>
+
+<p>YouTube チャンネル「一問一図」の運営者（以下「運営者」）は、自分のチャンネルの運営に使う制作ツール（以下「本ツール」）で扱う情報について、以下のとおり定めます。</p>
+
+<h2>1. YouTube API サービスの利用</h2>
+<p>本ツールは YouTube API サービスを利用しています。本ツールを利用する方は、<a href="https://www.youtube.com/t/terms">YouTube 利用規約</a>に同意したものとみなされます。Google による情報の取り扱いについては、<a href="https://policies.google.com/privacy">Google プライバシーポリシー</a>をご覧ください。</p>
+
+<h2>2. 本ツールを利用する人</h2>
+<p>本ツールは運営者だけが使います。本ツールが Google アカウントへのアクセスを求めるのは、運営者が管理する YouTube チャンネル「一問一図」のアカウントに対してだけです。運営者以外の方の Google アカウントやデータにはアクセスしません。</p>
+
+<h2>3. 要求する権限と、取得する情報</h2>
+<p>本ツールは、Google の OAuth 2.0 で次の権限（スコープ）を求めます。</p>
+<ul>
+  <li><code>https://www.googleapis.com/auth/youtube.upload</code><br>運営者が制作した動画とサムネイル画像を、非公開でアップロードするために使います。</li>
+  <li><code>https://www.googleapis.com/auth/youtube.readonly</code><br>チャンネルの基本情報（チャンネル名、登録者数などの統計）と、アップロード済み動画のタイトルや公開状態を確認するために使います。</li>
+  <li><code>https://www.googleapis.com/auth/yt-analytics.readonly</code><br>チャンネルと動画ごとの集計値（再生回数、総再生時間、平均視聴時間、登録者の増減、高評価数、コメント数、共有数）を取得するために使います。</li>
+  <li><code>https://www.googleapis.com/auth/yt-analytics-monetary.readonly</code><br>チャンネルの推定収益の集計値を取得するために使います。</li>
+</ul>
+<p>本ツールは、視聴者個人を特定できる情報（視聴者の名前、メールアドレス、コメントの本文など）を取得しません。取得するのは、運営者自身のチャンネルについての集計値と、運営者がアップロードした動画の情報だけです。</p>
+
+<h2>4. 情報の使い道</h2>
+<p>取得した情報は、次の目的だけに使います。</p>
+<ul>
+  <li>動画の非公開アップロードと、公開状態の確認</li>
+  <li>チャンネル運営の振り返り（どの動画がどれだけ見られたかを集計し、次の企画に生かす）</li>
+</ul>
+<p>広告の配信、第三者への販売、本ツールの目的と関係のない用途には使いません。</p>
+
+<h2>5. 保存と管理</h2>
+<ul>
+  <li>認可で得たリフレッシュトークンなどの認証情報は、運営者が管理する GitHub リポジトリの暗号化されたシークレット（GitHub Actions Secrets）にだけ保存し、ファイルやコードには書きません。</li>
+  <li>取得した集計値は、運営者が管理する GitHub リポジトリに保存し、運営の振り返りに使います。</li>
+  <li>アクセストークンは処理のたびに発行し、処理が終わったら保存しません。</li>
+</ul>
+
+<h2>6. 第三者への提供</h2>
+<p>取得した情報を第三者に販売・提供することはありません。ただし、法令に基づき開示を求められた場合を除きます。本ツールは処理のために GitHub（GitHub, Inc.）のサービスを利用しており、上記の情報は GitHub のサーバーに保存されます。</p>
+
+<h2>7. Google API サービスのユーザーデータに関するポリシーの遵守</h2>
+<p>本ツールが Google API から受け取った情報の利用と、他のアプリへの転送は、<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>（Limited Use の要件を含む）に従います。</p>
+
+<h2>8. アクセスの取り消しと、情報の削除</h2>
+<ul>
+  <li>本ツールへのアクセス許可は、<a href="https://security.google.com/settings/security/permissions">Google アカウントのセキュリティ設定（サードパーティ アプリとサービス）</a>からいつでも取り消せます。取り消した後、本ツールは YouTube のデータにアクセスできなくなります。</li>
+  <li>運営者は、本ツールの利用をやめるとき、保存した認証情報と、API から取得した集計値を削除します。</li>
+</ul>
+
+<h2>9. Cookie などについて</h2>
+<p>本ツールは、利用者の端末に Cookie などを保存したり、端末の情報を読み取ったりしません。このページ自体も、アクセス解析や広告のための Cookie を使いません（ページは GitHub Pages で配信しており、GitHub がアクセスログを記録する場合があります）。</p>
+
+<h2>10. 改定</h2>
+<p>このポリシーを改定するときは、このページを更新し、最終更新日を改めます。</p>
+
+<h2>11. お問い合わせ</h2>
+<p>お問い合わせは、<a href="https://github.com/ichimonichizu/ichimonichizu.github.io/issues">GitHub の Issues</a> で受け付けています（投稿には GitHub アカウントが必要です。投稿内容は公開されるため、個人情報は書かないでください）。</p>
+
+<hr>
+
+<h2 lang="en">Privacy Policy (English summary)</h2>
+<div lang="en">
+<p>This tool is used only by the operator of the YouTube channel "一問一図" (@ichimonichizu) to manage that channel. It uses YouTube API Services. By using it you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>; see also the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p>Scopes requested: <code>youtube.upload</code> (upload the operator's own videos and thumbnails as private), <code>youtube.readonly</code> (read channel statistics and the privacy status of uploaded videos), <code>yt-analytics.readonly</code> and <code>yt-analytics-monetary.readonly</code> (read aggregated channel and video metrics, including estimated revenue). No personal data about viewers is collected.</p>
+<p>Data is used only to upload videos privately, check whether they have been published, and review channel performance. It is never sold or shared with third parties, except as required by law. Credentials are stored only in encrypted GitHub Actions Secrets; aggregated metrics are stored in the operator's GitHub repository. Use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<p>Access can be revoked at any time via the <a href="https://security.google.com/settings/security/permissions">Google security settings page</a>. Contact: please open an issue on <a href="https://github.com/ichimonichizu/ichimonichizu.github.io/issues">GitHub Issues</a> (posts are public; do not include personal information).</p>
+</div>
+
+<footer>
+  <nav><a href="./">ホーム</a><a href="privacy.html">プライバシーポリシー</a><a href="terms.html">利用規約</a></nav>
+  <p>© 2026 一問一図</p>
+</footer>
+</main>
+</body>
+</html>
